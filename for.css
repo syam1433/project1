@@ -11,7 +11,7 @@
 }
 .forgot{
     width: 350px;
-    height: 600px;
+    height: 650px;
     background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
     position: absolute;
     top: 20px;
@@ -52,17 +52,14 @@
     text-align: center;
     border-radius: 5px;
     color: white;
+    background-color: black;
     border: none;
     cursor: pointer;
     transition: 0.4s ease;
 }
 .btn:active{
     color: black;
-    background:white
-}
-.btnn a{
-    text-decoration: none;
-    color:orange;
+    background:white;
 }
 .btnn{
     width: 110px;
@@ -78,7 +75,7 @@
     cursor: pointer;
     transition: 0.4s ease;
 }
-.btnn:active{
+.btnn:hover{
     background:white;
     color: black;
 }
@@ -86,4 +83,27 @@
     font-size: 15px;
     color: white;
     margin-top: 30px;
+}
+.btnnn{
+    width: 200px;
+    height: 45px;
+    background: black;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease;
+}
+.btnnn:active{
+    background: black;
+    color: white;
+}
+.btnnn a{
+    text-decoration: none;
+    color: white;
 }

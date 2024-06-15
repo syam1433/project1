@@ -37,7 +37,7 @@
     border-bottom: 1px solid black;
     background: transparent;
 }
-#submitBtn{
+.btn{
     width: 200px;
     height: 45px;
     background: orange;
@@ -52,11 +52,11 @@
     color: white;
     transition: 0.3s ease;
 }
-#submitBtn:active{
+.btn:active{
     background: white;
     color: orange;
 }
-#submitBtn a{
+.btn a{
     text-decoration: none;
     color: black;
 }

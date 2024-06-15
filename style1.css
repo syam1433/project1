@@ -57,9 +57,9 @@ ul li a:hover{
     color: chocolate;
 }
 .search{
-    width: 400;
+    width: 420px;
     float: left;
-    margin-left: 270px;
+    margin-left: 280px;
 }
 .srch{
     font-family:'Franklin Gothic Medium';
@@ -67,7 +67,7 @@ ul li a:hover{
     height: 35px;
     background: transparent;
     border: 1px solid orange;
-    margin-top: 10px;
+    margin-top: 15px;
     color: white;
     border-right: none;
     font-size: 15px;
@@ -81,7 +81,7 @@ ul li a:hover{
     height: 35px;
     background-color: chocolate;
     border: 1px solid black;
-    margin-top: 10px;
+    margin-top: 15px;
     color: white;
     padding-right: 10px;
 }
@@ -159,7 +159,7 @@ ul li a:hover{
     background:linear-gradient(to top,rgba(14, 1, 1, 0.5)50%,rgba(15, 1, 1, 0.5)50%);
     position: absolute;
     top: 20px;
-    left: 1000px;
+    left: 950px;
     border-radius: 10px;
     padding: 25px;
 }
