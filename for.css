@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.5)100%,rgb(0,0,0,0.5)100%),url(new);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.forgot{
+    width: 350px;
+    height: 600px;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
+    position: absolute;
+    top: 20px;
+    left: 550px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.forgot h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+    color: black;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+}
+.forgot input{
+    width: 208px;
+    height: 30px;
+    margin-top: 40px;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+.forgot .par{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn{
+    width: 50px;
+    height: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn:active{
+    color: black;
+    background:white
+}
+.btnn a{
+    text-decoration: none;
+    color:orange;
+}
+.btnn{
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia;
+    margin-top: 30px;
+    margin-left: 105px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:active{
+    background:white;
+    color: black;
+}
+.forgot .par{
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
